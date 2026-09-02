@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+</head>
+
+<body>
+
+    <header>
+
+        <a href="index.html">Inicio</a>
+
+        <nav>
+            <a href="index.html">Quién Soy</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <h1>Contacto</h1>
+        <img src="images.jpg" alt="laurita" width="250">
+        <p>
+            Complete el siguiente formulario para solicitar un turno
+            o realizar una consulta.
+        </p>
+
+        <form action="contacto.html" method="post">
+
+            <label>Nombre y Apellido</label>
+            <input type="text" name="nombre">
+
+            <br><br>
+
+            <label>Correo Electrónico</label>
+            <input type="email" name="email">
+
+            <br><br>
+
+            <label>Teléfono</label>
+            <input type="tel" name="telefono">
+
+            <br><br>
+
+            <label>Motivo de la consulta</label>
+
+            <select name="motivo">
+                <option>Primera consulta</option>
+                <option>Control nutricional</option>
+                <option>Descenso de peso</option>
+                <option>Aumento de peso</option>
+                <option>Otro</option>
+            </select>
+
+            <br><br>
+
+            <label>Mensaje</label>
+
+            <textarea name="mensaje"></textarea>
+
+            <br><br>
+
+            <input type="submit" value="Enviar">
+
+        </form>
+
+    </main>
+
+    <footer>
+
+        <p>Laura Fernández - Nutricionista</p>
+
+    </footer>
+
+</body>
+
+</html>
