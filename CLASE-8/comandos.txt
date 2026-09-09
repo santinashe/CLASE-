@@ -24,4 +24,8 @@ instalar paquetes five-server
 reinstalar paquetes si existe package.json 
  pn install
 
- configurar script -> "dev":"five-server 
+ configurar script 
+-> "dev":"five-server 
+ instalar manejador de paquetes 
+ https://pnpm.io/es/
+ https://www.npmjs.com/

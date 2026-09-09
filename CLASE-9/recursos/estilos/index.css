@@ -1,0 +1,70 @@
+/* selector{
+    propiedad1: valor;
+    propiedad2: valor;
+
+} */
+
+/* IMPORTAR FUENTE*/
+@font-face {
+    font-family: Poppins;
+    src: url(.fuentes/Poppins-Regular.ttf);
+} 
+/* SELECTOR UNIVERSAL */
+*{
+    /*outline: 1px rgb(252, 71, 16);*/   
+}
+
+html{
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ body{background-color: rgb(252, 190, 133);
+}
+
+.encabezado-prinicipal{
+
+}
+header{
+    background-color: rgb(252, 255, 70);
+}
+
+header{
+    background-color: rgb(163, 99, 26);
+}
+
+a{
+    color: #3333;
+    text-decoration: none;
+}
+
+/*Selector de CLASE */
+/*.vinculo {
+    color:black
+}*/
+
+.encabezado-prinicipal.vinculos a{
+    color:rgb(252, 252, 252);
+}
+
+.encabezado-prinicipal{
+
+}
+
+.contenido-principal{
+
+}
+
+.pie-principal{
+
+}
+
+/*[href]{
+
+}*/
+
+/*#contactos{
+
+}*/
+
+        
+
