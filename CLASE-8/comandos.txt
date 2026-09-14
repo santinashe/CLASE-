@@ -15,7 +15,7 @@ instalar manejador de paquetes pnpm
  
  -verificar si no existe el package.json, sino existe ejecutamos 
  
-    pn.init
+    pn init
 
 instalar paquetes five-server
 

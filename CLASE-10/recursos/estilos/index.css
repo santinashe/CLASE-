@@ -1,0 +1,51 @@
+/*genericos*/
+*{
+  box-sizing: border-box; 
+}
+/* reset*/
+html,
+body,
+h1,
+h2,
+h3,
+ul,
+body{
+    background-color: #cecaca;
+}
+a{
+    color:#5a0a0a;
+    text-decoration:none;
+
+}
+/*platilla*/
+.encabezado-prinicipal {
+    padding: 5px 10px 20px 10px;
+    background-color: #96919133;
+    border-bottom: 2px solid #18171733;
+
+}
+.encabezado-prinicipal nav{
+    background-color: #ff0000;
+    width: 100%;
+    height: 120px;
+    padding: 5px;
+
+}
+
+
+.contenido-principal{
+    padding: 10px;
+    background-color: #806b6b33;
+
+}
+.contenido-principal section form input{
+    display:block;
+    width: 100%;
+
+
+}
+
+.pie-principal{
+    background-color: #524f4f33;
+
+}
