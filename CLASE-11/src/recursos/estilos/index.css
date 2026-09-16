@@ -1,0 +1,108 @@
+/*
+Sintaxis
+*/
+
+/*
+Regla de estilo (Rule)
+
+selector{
+    propiedad1: valor;
+    propiedad2: valor;
+}
+*/
+
+@font-face {
+    font-family: Poppins;
+    src: url(./fuentes/Poppins-Regular.ttf);
+}
+
+/* Selectores de TIPO > CLASE*/
+
+/* SELECTOR UNIVERSAL */
+
+/*
+*{
+    outline: 1px red solid; 
+}
+*/
+
+html,
+body {
+    margin: 0px;
+}
+
+html {
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #daf4fa;
+    margin: 0;
+}
+
+a {
+    color: #171919;
+    text-decoration: none;
+}
+
+
+/*
+Va a seleccionar todas las anclas que encuentre asi que para poder modificar uno solo 
+Tenemos que usar el selector de CLASE
+*/
+
+
+.vinculos {
+    color: #066966;
+}
+
+nav a {
+    color: #100068;
+}
+
+/* ENCABEZADO PRINCIPAL */
+
+.encabezado-principal {
+    display: flex;
+    background-color: #a9c9e9;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.encabezado-principal a img {
+    width: 200px;
+}
+
+nav a {
+    color: #100068;
+}
+
+/* CONTENIDO PRINCIPAL */
+.contenido-principal .contenedor-form {
+    padding: 10px 10%;
+}
+
+.contenido-principal .contenedor-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido-principal {
+    color: #004c68;
+    margin: 5px 10px 5px 10px;
+}
+
+
+/* PIE PRINCIPAL */
+
+.pie-principal {
+    color: #100068;
+    background-color: #a9c9e9;
+    margin-bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px;
+}
